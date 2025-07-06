@@ -1,10 +1,15 @@
 package com.ram.learnspringboot.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.util.List;
 import java.util.Objects;
 
+@Entity
 public class SoftwareEngineer {
 
+    @Id
     private Integer id;
     private String name;
     private String designation;
@@ -13,6 +18,8 @@ public class SoftwareEngineer {
     private String address;
     private List<String> techStack;
 
+
+    public SoftwareEngineer() {}
 
     public SoftwareEngineer(Integer id, String name, String designation, String email, String phone, String address, List<String> techStack) {
         this.id = id;
