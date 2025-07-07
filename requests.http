@@ -8,3 +8,22 @@ GET http://localhost:8080/api/v1/software-engineers/getAllSoftwareEngineers
 ###
 
 GET http://localhost:8080/api/v1/software-engineers/getSoftwareEngineer/1
+
+###
+
+POST http://localhost:8080/api/v1/software-engineers/addSoftwareEngineer
+Content-Type: application/json
+
+{
+  "name": "Sophie Müller",
+  "designation": "Full Stack Developer",
+  "email": "sophie.mueller@gmail.com",
+  "phone": "+4915782345678",
+  "address": "Munich, Germany",
+  "techStack": [
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "PostgreSQL"
+  ]
+}

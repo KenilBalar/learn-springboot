@@ -62,8 +62,13 @@ public class SoftwareEngineerController {
     }
 
     @GetMapping("getSoftwareEngineer/{id}")
-    public SoftwareEngineer getSoftwareEngineerById(@PathVariable Integer id){
+    public SoftwareEngineer getSoftwareEngineer(@PathVariable Integer id){
         return softwareEngineerService.getSoftwareEngineerById(id);
+    }
+
+    @PostMapping("addSoftwareEngineer")
+    public void addNewSoftwareEngineers(@RequestBody SoftwareEngineer softwareEngineer) {
+        softwareEngineerService.addSoftwareEngineer(softwareEngineer);
     }
 
 }

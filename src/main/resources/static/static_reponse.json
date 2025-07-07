@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Kenil Balar",
+    "designation": "Software Engineer",
+    "email": "kenil123@gmail.com",
+    "phone": "+49134408425",
+    "address": "Berlin",
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mohit Sukhadiya",
+    "designation": "Front-end Developer",
+    "email": "mohit543@gmail.com",
+    "phone": "+919573164864",
+    "address": "Surat, India",
+    "techStack": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Tailwind CSS",
+      "React.js"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Aarav Mehta",
+    "designation": "Backend Developer",
+    "email": "aarav.mehta@gmail.com",
+    "phone": "+919998887766",
+    "address": "Ahmedabad, India",
+    "techStack": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Docker"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sophie Müller",
+    "designation": "Full Stack Developer",
+    "email": "sophie.mueller@gmail.com",
+    "phone": "+4915782345678",
+    "address": "Munich, Germany",
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lukas Schmidt",
+    "designation": "DevOps Engineer",
+    "email": "lukas.schmidt@techmail.com",
+    "phone": "+491522334455",
+    "address": "Hamburg, Germany",
+    "techStack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Terraform",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Priya Nair",
+    "designation": "Mobile App Developer",
+    "email": "priyanair@gmail.com",
+    "phone": "+918976543210",
+    "address": "Bangalore, India",
+    "techStack": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Firebase",
+      "MVVM"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "David Kim",
+    "designation": "Machine Learning Engineer",
+    "email": "david.kim@mlworks.com",
+    "phone": "+821012345678",
+    "address": "Seoul, South Korea",
+    "techStack": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Pandas",
+      "Scikit-learn"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Emma Johansson",
+    "designation": "UI/UX Designer",
+    "email": "emma.johansson@designhub.com",
+    "phone": "+46731234567",
+    "address": "Stockholm, Sweden",
+    "techStack": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "HTML",
+      "CSS"
+    ]
+  }
+]
