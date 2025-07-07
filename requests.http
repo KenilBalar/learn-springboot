@@ -27,3 +27,27 @@ Content-Type: application/json
     "PostgreSQL"
   ]
 }
+
+###
+
+DELETE http://localhost:8080/api/v1/software-engineers/deleteSoftwareEngineer/
+
+###
+
+PUT http://localhost:8080/api/v1/software-engineers/updateSoftwareEngineer/8
+Content-Type: application/json
+
+{
+  "name": "Emma Johansson",
+  "designation": "UI/UX Designer",
+  "email": "emma.johansson@designhub.com",
+  "phone": "+46731234567",
+  "address": "Stockholm, Sweden",
+  "techStack": [
+    "Figma",
+    "Adobe XD",
+    "Sketch",
+    "HTML",
+    "CSS"
+  ]
+}
